@@ -24,7 +24,7 @@ function determinarVencedor(jogador, servidor) {
     (jogador === 'papel' && servidor === 'pedra') ||
     (jogador === 'tesoura' && servidor === 'papel')
   ) {
-    return "Você ganhou!";
+    return "Você venceu!";
   }
 
   return "Servidor ganhou!";
